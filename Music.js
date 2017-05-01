@@ -46,10 +46,10 @@
         }
         //console.log(typeof settings.audioUrl);
         if (typeof settings.audioUrl === 'object') {    //如果传入的是多首歌曲
-            audioTag.src = settings.audioUrl[0].source;
+            audioTag.childNodes.src = settings.audioUrl[0].source;
             for (var i = 0; i < settings.audioUrl.length; i++) {
                 var _option = new Option(settings.audioUrl[i].title, settings.audioUrl[i].source);
-                audioSelect.childNodes.add(_option);
+                audioSelect.add(_option);
             }
         } else {        //否则是单首歌曲，URL则是字符串，并隐藏SELECT控件
             audioTag.src = settings.audioUrl;
