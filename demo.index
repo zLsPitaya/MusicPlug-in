@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>zL's Pitaya</title>
+    <script src="Music.js"></script>
+
+</head>
+<body>
+    <div id="content" style="border:solid 1px red;width:100%;height:132px;"></div>
+        <script>
+            zlMusic({
+                audioUrl: [
+                            { title: "Marnoon - Maps", source: "music/Maps.mp3" },
+                            { title: "Marnoon - Sugar", source: "music/Sugar.mp3" }
+                ],
+                //audioUrl: "music/Sugar.mp3" ,
+                nodeID: "",
+                boxStyle: "",
+                buttonSrc: "",
+            });
+    </script>
+</body>
+</html>
