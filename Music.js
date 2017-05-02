@@ -46,7 +46,7 @@
         }
         //console.log(typeof settings.audioUrl);
         if (typeof settings.audioUrl === 'object') {    //如果传入的是多首歌曲
-            audioTag.childNodes.src = settings.audioUrl[0].source;
+            audioTag.src = settings.audioUrl[0].source;
             for (var i = 0; i < settings.audioUrl.length; i++) {
                 var _option = new Option(settings.audioUrl[i].title, settings.audioUrl[i].source);
                 audioSelect.add(_option);
