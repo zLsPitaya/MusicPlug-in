@@ -27,7 +27,7 @@
 
         var audioButton = audioBOX.querySelectorAll("a")[0];    //找到第一个a元素
         var audioSelect = audioBOX.querySelectorAll("select")[0];   //找到第一个select元素
-        var audioTag = audioBOX.querySelectorAll("audio")[0];   //找到第一个audio元素
+        var audioTag = audioBOX.querySelectorAll("source")[0];   //找到第一个audio元素
 
         if(settings.buttonSrc) audioButton.style.backgroundImage = 'url('+ settings.buttonSrc +')';
 
