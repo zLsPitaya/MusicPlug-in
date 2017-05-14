@@ -12,7 +12,7 @@
   
 ## 怎么使用
   我这里demo里面写的方法是zlMusic()，若有命名冲突可修改__INFO__.plug中定义的命名函数。<br>
-  引入js文件后，最好在body最下面写一下方法调用：<br>
+  引入js文件后，在body最下面写一下方法调用：<br>
 　　<script><br>
 　　　　zlMusic({<br>
 　　　　　　　　audioUrl: [     //音乐资源，多首歌曲请用数组传入<br>
